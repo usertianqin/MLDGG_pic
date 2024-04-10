@@ -8,7 +8,7 @@ Thank you very much for taking the time to review our paper. Your insights are i
 
 - In *w/o MAML*, it is evident that without the meta-learner, our model significantly decreases model performance by 8% to 10%. This observation indicates the critical role played by the meta-learner modules in facilitating knowledge transfer from source and target graphs. The meta-learner serves as an integration for both the structure learner and representation learner (see Fig.2), thereby enabling efficient knowledge transfer and facilitating effective adaptation to unseen target domains.  
 
-**[W3]:**The template is the latest version downloaded from the link provided by the KDD official website, where "Conference acronym 'XX, June 03-05, 2018, Woodstock, NY" is given on the top of each page.
+**[W3]:** The template is the latest version downloaded from the link provided by the KDD official website, where "Conference acronym 'XX, June 03-05, 2018, Woodstock, NY" is given on the top of each page.
 
 **[Q2]:** The representation learner is constructed based on a causal generative model on data variables (r, y) and latent semantic and variation factors (s,v), shown in [[link](https://anonymous.4open.science/r/MLDGG_pic-8F3B/causal.jpg)]. The causal generative mechanisms p(r|s,v) and p(y|s) are invariant across domains, and the change of prior p(s, v) is the only source of domain change. Based on this, we propose the likelihood in Eq.8. In the process of solving Eq.8 through Eq.10 and Eq.11, semantic and variation factors are disentangled.
 
