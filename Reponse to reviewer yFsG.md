@@ -1,0 +1,12 @@
+Thank you very much for taking the time to review our paper. Your insights are invaluable in enhancing the quality and clarity of our research. We have carefully considered each of the points you raised：
+
+**[W1,Q1]:** We employ the structure learner to mitigate the adverse effects of task-unrelated edges, aiming to enhance the comprehensiveness of representations learned by GNN. Despite GNNs' ability to extract abstract representations, they may blend semantic and variation factors due to a spurious correlation between them. We use the representation learner to disentangle the spurious correlation to adapt to different domains. The meta-model transfers the knowledge learned from the structure and representation learner and facilitates rapid adaptation to various unseen domains. To more intuitively analyze the contribution of the three key modules, in section 6.3, we conduct ablation studies about them and discuss them.  
+
+**[W3]:** Thank you for your careful attention. The template is the latest version from the official site, where each page is labeled "Conference acronym 'XX, June 03-05, 2018, Woodstock, NY".
+
+**[Q2]:** The representation learner is proposed based on the constructed causal graph:  [anonymous link](https://anonymous.4open.science/r/MLDGG_pic-8F3B/causal.jpg).
+
+The causal generative mechanisms p(r|s,v) and p(y|s) are invariant across domains, the undirected s-v clique represents a domain-specific prior p(s,v). Based on this, we propose the likelihood as shown in Eq.8. In the process of solving Eq.8 through Eq.10 and Eq.11, the spurious correlation between s and v is gradually eliminated.
+
+**[Q3]:** We are sorry for the inconvenience caused by the excessive length of the sentence. We will optimize as "The framework integrates a structural learner and a representation learner within the meta-learning paradigm to facilitate performance for domain generalization on graphs. The structure learner mitigates the adverse effects of task-unrelated edges to facilitate the acquisition of comprehensive node representations. The representation learner by eliminating the spurious correlation between semantic and variation factors enhances the model's generalization. Finally,  the meta-model transfers the knowledge learned from the structure and representation learner and facilitates rapid adaptation to unseen target domains. "Expect the rewritten sentences to be easier for you to understand and we will update it in the updated version.
+
