@@ -1,6 +1,6 @@
 Thank you very much for taking the time to review our paper. Your insights are invaluable in enhancing the quality and clarity of our research. We have carefully considered each of the points you raised：
 
-**[W1]:** It is feasible to learn $𝐴$. In practice, to reduce the time and space cost, following the simplification of [36], we convert the sampling of $𝐴^*$ in the structure learner to the product of the $(𝑁𝑃)$-dimensional matrix $𝐵$ and its transpose. So the complexity is reduced to $𝑁\times𝑃$ but the performance is the same, where $𝑃$ is the number of pivots nodes, where $ P\ll N$. The complexity reduction details are as follows:
+**[W1]:** It is feasible to learn $𝐴$. In practice, to reduce the time and space cost, following the simplification of [36], we convert the sampling of $𝐴^*$ in the structure learner to the product of the $(𝑁𝑃)$-dimensional matrix $𝐵$ and its transpose. So the complexity is reduced to $𝑁\times𝑃$ but the performance is the same, where $𝑃$ is the number of pivots nodes, where $P \ll N$. The complexity reduction details are as follows:
 
 1. Randomly choose $𝑃$ nodes in the graph as pivots, where $𝑃$ is a hyperparameter.
 
