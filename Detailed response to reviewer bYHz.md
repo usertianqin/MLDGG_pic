@@ -8,9 +8,8 @@ Thank you very much for taking the time to review our paper. Your insights are i
 
 3. The intermediate graph matrix (each element represents the similarity of the corresponding pair of nodes) corresponding to matrix $B$ is defined as $𝑇$. Then the message-passing process when the GNN is applied on $𝐴^*$​can be converted to:
    $$
-   Z^{l+\frac{1}{2}}=RowNorm(T^T)r^{(l)}
+   Z ^ {l+\frac{1}{2}}=RowNorm(T ^ T)r ^ {(l)}
    $$
-
    $$
    Z^{l+1}=RowNorm(T)r^{(l+\frac{1}{2})}
    $$
