@@ -12,10 +12,6 @@ Thank you very much for taking the time to review our paper. Your insights are i
    $$
 
    $$
-   
-   $$
-
-   $$
    Z^{l+1}=RowNorm(T)r^{(l+\frac{1}{2})}
    $$
 
