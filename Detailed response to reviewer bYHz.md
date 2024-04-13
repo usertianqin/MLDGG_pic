@@ -17,7 +17,7 @@ Thank you very much for taking the time to review our paper. Your insights are i
 
 where $Z^{l+\frac{1}{2}}$ is an intermediate node representation and 𝑅𝑜𝑤𝑁𝑜𝑟𝑚 normalizes the values of each row. Then Eq.4 can be approximated to:
 $$
-\mathcal{B} =-\alpha \sum _ {i.j} {E}^* _ {i,j} || \mathbf{r} _ {i}-\mathbf{r} _ {j} ||_2^2 - \beta ||{E}^*|| _ {0}
+\mathcal{B} =-\alpha \sum _ {i.j} {E}^* _ {i,j} || \mathbf{r} _ {i}-\mathbf{r} _ {j} || _ 2^2 - \beta ||{E}^*|| _ {0}
 $$
 where $𝐸=𝐵^T𝐵$ is the $𝑃\times 𝑃$ pivot-pivot adjacency matrix. Such a procedure can be efficiently conducted within $𝑂(𝑁𝑃)$ time and space complexity. We will emphasize this in the updated version.
 
