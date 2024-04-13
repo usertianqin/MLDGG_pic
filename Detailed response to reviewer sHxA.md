@@ -1,8 +1,8 @@
 Thanks for your valuable feedback.
 
-1. Existing studies in graph domain generalization [16], [36], [42] solely focus on node classification. We follow their settings and use them as baselines in our experiments. Other tasks on graphs such as link prediction, graph-level classification, etc. require different settings. Your comments have been extremely helpful. We will discuss this in the updated version.
+**[W1]:** Existing studies in graph domain generalization [16], [36], [42] solely focus on node classification. We follow their settings and use them as baselines in our experiments. Other tasks on graphs such as link prediction, graph-level classification, etc. require different settings. Your comments have been extremely helpful. We will discuss this in the updated version.
 
-2. We assess three fundamental modules  (the structure learner (SL), representation learner (SV), and meta-learner (MAML)) of our proposed model of two variants (MLDGG and MLDGG-ind) on the WebKB dataset by removing each module individually (in section 6.3). Results are given in Fig. 5 (main paper) and Fig. 6 (appendix).
+**[W2]:** We assess three fundamental modules  (the structure learner (SL), representation learner (SV), and meta-learner (MAML)) of our proposed model of two variants (MLDGG and MLDGG-ind) on the WebKB dataset by removing each module individually (in section 6.3). Results are given in Fig. 5 (main paper) and Fig. 6 (appendix).
 
    - In *w/o SL*, we observe declines of 2% to 3% in accuracy across all settings compared to the full model. Given that GNNs often aggregate task-irrelevant information, which can result in overfitting and diminish generalization performance, the introduction of the structure learner becomes crucial. By mitigating the adverse effects of task-unrelated edges, the structure learner facilitates the acquisition of comprehensive node representations, thereby improving the overall performance.
 
