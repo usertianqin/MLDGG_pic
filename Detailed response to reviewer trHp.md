@@ -1,4 +1,4 @@
-Thanks for your valuable feedback.
+Thank you very much for taking the time to review our paper. Your insights are invaluable in enhancing the quality and clarity of our research. We have carefully considered each of the points you raised：
 
 **[W1]** The paragraph "Shared Batch Normalization Bias" on page 6 of [a] (ICLR-18) highlights this assumption. It is reiterated in subsequent studies, including the 3-th paragraph of the introduction in [15] (AAAI-23). We will clarify it in the updated version.
 
